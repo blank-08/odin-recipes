@@ -1,3 +1,14 @@
+html{
+    box-sizing: border-box;
+    
+}
+
+*, 
+*::before,
+*::after{
+    box-sizing: inherit;
+    
+}
 body{
     font-family: Arial, sans-serif;
     color: rgb(0, 0, 0);
@@ -9,6 +20,11 @@ h1{
     text-align: center;
 }
 
+img{
+    margin: 0 auto;
+    display: block;
+}
+
 li a{
     color: black;
     font-size: 18px;
@@ -16,4 +32,25 @@ li a{
 
 ol strong{
     color: crimson;
+}
+
+h2{
+    margin: 25px;
+}
+
+p{
+    margin: 0 30px;
+    padding: 10px;
+}
+
+ul li{
+    margin: 0 20px;
+}
+
+ol li{
+    margin: 5px; 
+}
+
+.footer{
+    margin-bottom: 20px;
 }
