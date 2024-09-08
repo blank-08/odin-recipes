@@ -25,6 +25,11 @@ img{
     display: block;
 }
 
+.product{
+    height: auto;
+    width: 800px;
+}
+
 li a{
     color: black;
     font-size: 18px;
